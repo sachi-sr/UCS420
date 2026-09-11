@@ -17,3 +17,5 @@ X=int(input("Enter a value X to remove from A:" ))
 
 A.discard(X)
 print("Set A after discarding X:",A)
+
+#discard() is safer because ti does not raise an error if X is not present in the set.
